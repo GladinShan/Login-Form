@@ -1,0 +1,16 @@
+.mains{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#avatarimage img{
+    width: 100px;
+}
