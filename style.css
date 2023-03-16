@@ -1,16 +1,29 @@
 .mains{
-    width:100%;
+    width: 30%;
     height:100%;
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-left: 35%;
+    padding: 30px;
+    background-color: aquamarine;
 
 }
 .container2{
     display: flex;
     flex-direction: column;
     text-align: center;
+
 }
 #avatarimage img{
-    width: 100px;
+    width: 200px;
+}
+body{
+    background-color: antiquewhite;
+}
+#btn1{
+margin-top: 10px;
 }
