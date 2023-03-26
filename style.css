@@ -1,29 +1,97 @@
-.mains{
-    width: 30%;
-    height:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15%;
-    border: 2px solid grey;
-    border-radius: 5px;
-    margin-left: 35%;
-    padding: 30px;
-    background-color: aquamarine;
-
-}
-.container2{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
-#avatarimage img{
-    width: 200px;
-}
 body{
-    background-color: antiquewhite;
+    width: auto;
+    height: 500px;
+    margin: 0;
+    background-color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#firstcontainer{
+    text-align: center;
+    line-height: 15px;
+   
+}
+#boxcontainer{
+   
+    margin-left: 500px;
+    margin-right: 500px;
+    height: 320px;
+    padding: 20px;
+    background-color: white;
+    line-height: 40px;
+    border-radius: 10px;
+}
+.inputbox{
+    height: 30px;
+    width: 100%;
+    border-color: #ededed;
+    border-radius: 5px;
+    border-style: solid;
+}
+#flexboxtext{
+    display: flex;
+    flex-direction: row;
+}
+#forgotpassword{
+    margin-left: 120px;
 }
 #btn1{
-margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: #464cff;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+#btn1:hover{
+background-color: #060efd;
+cursor: pointer;
+}
+.header__center {
+    font-size: 15px;
+    display: grid;
+    color:grey;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+}
+
+.header__center::before,
+.header__center::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: currentColor;
+}
+#buttonsflexbox{
+    text-align: center;
+}
+#facebook{
+border-color: #d8d1d1;
+border-style: solid;
+}
+#twitter{
+    border-color: #d8d1d1;
+    border-style: solid;  
+}
+#github{
+    border-color: #d8d1d1;
+    border-style: solid;
+}
+h5 a{
+    color: #464cff;
+    text-decoration: none;
+}
+#flexboxtext a{
+
+    color: #464cff;
+    text-decoration: none;
+}
+#facebook:hover{
+    background-color: rgb(184, 183, 183) ;
+}
+#twitter:hover{
+    background-color: rgb(184, 183, 183) ;
+}
+#github:hover{
+    background-color: rgb(184, 183, 183) ;
 }

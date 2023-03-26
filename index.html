@@ -4,27 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Loginform</title>
 </head>
 <body>
-    <div class="mains">
-    <form action="LoginPage">
-        <div id="avatarimage">
-            <img src="Avatar-Profile-PNG-Picture.png" alt="avatar">
-        </div>
-        <div class="container2">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" id="userName" name="userName" pattern="[A-Za-z]" required>
-            
-            <label for="Password"><b>Password</b></label>
-            <input type="password" id="Password" name="Password" required>
-            <div id="subdiv">
-            <button id="btn1" type="submit">submit</button>
-            </div>
-        </div>
+    <div id="firstcontainer" >
+   <h1>Sign in to your account</h1>
+   <h5>Or <a href="#" >start your 14-day free trail</a> </h5>
+</div>
+    <div id="boxcontainer">
+        <div id="emailpassword">
+   <form action="/action_page.php">
+    <label>Email address</label><br>
+    <input type="text" class="inputbox" id="username" value=""><br>
+    <label for="lname">Password</label><br>
+    <input type="password" class="inputbox" id="password">
+  </form> 
+</div>
 
-    </form>
-    </div>
+<div id="flexboxtext">
+  <input type="checkbox">
+  <label>Rememberme</label>
+  <a href="#" id="forgotpassword">Forgot you password?</a>
+</div>
+
+  <button id="btn1" onclick="myfunction()" >Sign in</button>
+
+
+    <div class="header__center">Or continue with</div>
+
+<div id="buttonsflexbox" >
+<button id="facebook"> <img src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-grey-circle-png-transparent.png" alt="fb-logo" width="50px"  height="25px"> </button>
+<button id="twitter"> <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-white-circle-png-images-23.png" alt="twitter-logo"  width="50px"  height="25px" > </button>
+<button id="github"> <img src="https://icones.pro/wp-content/uploads/2021/06/icone-github-grise.png" alt="github-logo"  width="50px"  height="25px" > </button>
+<script src=".vscode/main.js"></script>
+</div>
+</div>
 </body>
 </html>
